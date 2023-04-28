@@ -1,11 +1,28 @@
+require("dotenv").config();
+
 const express = require("express");
 const app = express()
 const admin = require('firebase-admin');
-const credentials = require("./key.json");
+// const credentials = require("./key.json");
+
+const serviceAccount = {
+    "type": process.env.SERVICE_ACC,
+    "project_id":  process.env.PROJECT_ID,
+    "private_key_id":  process.env.PRIVATE_KEY_ID ,
+    "private_key":  process.env.PRIVATE_KEY ,
+    "client_email":  process.env.CLIENT_EMAIL ,
+    "client_id":  process.env.CLIENT_ID ,
+    "auth_uri":  process.env.AUTH_URI ,
+    "token_uri":  process.env.TOKEN_URI ,
+    "auth_provider_x509_cert_url":  process.env.AUTH_PROVIDER ,
+    "client_x509_cert_url":  process.env.CLIENT_CERT_URL ,
+};
+
+// console.log(serviceAccount);
 const cors = require("cors");
 
 admin.initializeApp({
-    credential: admin.credential.cert(credentials)
+    credential: admin.credential.cert(serviceAccount)
 });
 
 const db = admin.firestore();
