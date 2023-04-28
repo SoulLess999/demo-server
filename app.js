@@ -18,6 +18,9 @@ const admin = require('firebase-admin');
 //     "client_x509_cert_url":  process.env.CLIENT_CERT_URL ,
 // };
 
+const sa = process.env.SERVICE_ACC;
+console.log(sa)
+
 const serviceAccount = {
     "type": "service_account",
     "project_id":  "ev-route-planner-2",
