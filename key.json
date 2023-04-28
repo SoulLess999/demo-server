@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "ev-route-planner-2",
+    "private_key_id": "6808bd936e7a8eb22ec0e0ae43470c115ad00681",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7fLh8CyirvNzl\n0b/lyEPyQUXhpuOjemM750KYvkeny5+yHrZcOfRFJEbN/U8yMJFL+PmlQGplHZvp\nHv35QBmuPw+8YYK/NjcVNllK60NtwiqeFT9cnuRpZuJZBge3D9So3bFVk5GZP5jY\nKymaaDECIzh0mAO4CXsZFuVnn3mEYjv//lOE0d3N6zwYnBtnAruKvgb7M3m/dl0Q\nZWGIlZ2iE9/fXPXS8TFkhhnBbU1KZ0CIGz1ebDfTXzY2Ul10w8Xf6pmhW1288M90\n826aRVj56qaoGSopg9Jxs9Xp/SeWPMlnApUUiIouD0YJiwa3ki+7SOMtWD8gGeR7\n34bRdxIvAgMBAAECggEAFpC9JDze68X4Rkw3pFXgC60cgTtqGY0g8B72Q9ZfCcyM\nZM6lKeDVzBPrgQkUZO412/wpkTX5Yussjo3ViTrUUcWy71GYgCAWgsiUTbFBioPR\n8k3iCZPxhNgbtRWbNxwXfy2TlZZZx0/sEFR9ljZ6c48+pmsnbhlCBh6HL4YhBN7t\n1x8teVAB/sOndguvZLBXH56739bO3wwtU7bUFae/7qhjiGSQvuHnDsNv9S5WITaU\nz6VloAR1ZHDrK6P5bM2X2nK5SZ7F274x788aoPRFBop/FcQk5eBQ1kBpaVPROVgu\niYeO4wQGXmHGGx2tA70sXu9a0/3M9+iamr179wyXfQKBgQDcuizwwQGpVD7sQXQO\nmjrc/LLUj9c07QKDyPSGOFPEptDvPIm4Ubgv1NudisohmvHrpGQA3q3vQX/XY5Ce\nDb+q6fDKBTtokIXISIBGG26UaPNzlVZ5RlcRTi1UdEA8vFplj+f+D3PR9w4NUGFS\nL6RalwLEXhCYa2QWjbwMX+17vQKBgQDZcramisu4u0l1Ehs16er0NYWVyfjGxtqL\nxkfr0qU0s9QNFwhdWw5feEsHGdh6kjhlfmPHuoAdBLXFLd1ATgqR0hmEbsylc9xY\nKkH/CEHEcrCUIeSy0r7hvNiGbxqzMj8KzGKcQknifDSDAtUGl0YwGU6+rs3vbOrR\nvkwGMwLOWwKBgQCoMmaUfz7Y3Y2lUqsxhW1dgGJ1f7aqagEEk1lh/gI3VDbaVvNL\nNVp5eGZxwpUMzpmSyw45a3Z3Xx4f74sAJdHsV6BZEWuX3qlTWYwF4Fl/VgpOBXqD\np4opcb0xIfThU1Y/Fk3eV8AWO4DFvH6stgkzzucY4+UZgJwgY5jshRzesQKBgA6m\n7CfMsm2AMTLyRWMcn/hUouu08E50l8VTVwVM7FTgySkYpDemKxHDyUpxM2UO9T3h\nhleu+XL7HkRrEr2ChLPOtGl4DdIYPIC0WD4XEFdsYvmYTxC9op8TWoO0eNgaSqUv\noHVnAhOAywkI59HJ37DeA7BVlwrLDAeWCwlf5pCBAoGAUJnSOk6b2INMxkR5Y7rs\nborfCJp9tYpWvEn4m8Dh8JTb1JmkaXmzR5GkC/tHZg3/tCbuCY0GRC3GuVBJT7ZD\nAivQyX/HHOzeIwbxl6iKKNxVufOmwmAQEp1j2u1rTCOygvregFaXshrKKThp6wu2\n7gUw3Tw6MgNblPsbVzdb2CE=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-pmbya@ev-route-planner-2.iam.gserviceaccount.com",
+    "client_id": "101746527376123951463",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-pmbya%40ev-route-planner-2.iam.gserviceaccount.com"
+}
