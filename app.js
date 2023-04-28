@@ -52,6 +52,7 @@ const serviceAccount = {
     "client_x509_cert_url":  cert
 };
 
+console.log("got json")
 // console.log(serviceAccount);
 const cors = require("cors");
 
@@ -59,7 +60,10 @@ admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
 });
 
+console.log("initialized app")
+
 const db = admin.firestore();
+console.log("connected to db")
 
 app.use(express.json())
 
