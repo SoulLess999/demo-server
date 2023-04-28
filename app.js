@@ -43,7 +43,7 @@ const serviceAccount = {
     type: "service_account",
     project_id:  "ev-route-planner-2",
     private_key_id:  pkid,
-    private_key:  pk,
+    private_key:  pk.replace(/\\n/g, '\n'),
     client_email:  "firebase-adminsdk-pmbya@ev-route-planner-2.iam.gserviceaccount.com" ,
     client_id:  cid,
     auth_uri:  aut ,
