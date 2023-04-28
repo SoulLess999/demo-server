@@ -19,40 +19,40 @@ const admin = require('firebase-admin');
 // };
 
 const sa = process.env.SERVICE_ACC;
-console.log(sa)
+// console.log(sa)
 const pid = process.env.PROJECT_ID;
-console.log(pid)
+// console.log(pid)
 const pkid = process.env.PRIVATE_KEY_ID;
-console.log(pkid)
+// console.log(pkid)
 const pk = process.env.PRIVATE_KEY;
-console.log(pk)
+// console.log(pk)
 const ceml = process.env.CLIENT_EMAIL;
-console.log(ceml);
+// console.log(ceml);
 const cid = process.env.CLIENT_ID;
-console.log(cid)
+// console.log(cid)
 const aut = process.env.AUTH_URI
-console.log(aut)
+// console.log(aut)
 const tok = process.env.TOKEN_URI
-console.log(tok)
+// console.log(tok)
 const prov = process.env.AUTH_PROVIDER;
-console.log(prov)
+// console.log(prov)
 const cert = process.env.CLIENT_CERT_URL
-console.log(cert)
+// console.log(cert)
 
 const serviceAccount = {
-    "type": "service_account",
-    "project_id":  "ev-route-planner-2",
-    "private_key_id":  pkid,
-    "private_key":  pk,
-    "client_email":  "firebase-adminsdk-pmbya@ev-route-planner-2.iam.gserviceaccount.com" ,
-    "client_id":  cid,
-    "auth_uri":  aut ,
-    "token_uri":  tok,
-    "auth_provider_x509_cert_url":  prov ,
-    "client_x509_cert_url":  cert
+    type: "service_account",
+    project_id:  "ev-route-planner-2",
+    private_key_id:  pkid,
+    private_key:  pk,
+    client_email:  "firebase-adminsdk-pmbya@ev-route-planner-2.iam.gserviceaccount.com" ,
+    client_id:  cid,
+    auth_uri:  aut ,
+    token_uri:  tok,
+    auth_provider_x509_cert_url:  prov ,
+    client_x509_cert_url:  cert
 };
 
-console.log("got json")
+console.log(serviceAccount)
 // console.log(serviceAccount);
 const cors = require("cors");
 
