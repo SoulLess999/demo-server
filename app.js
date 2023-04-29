@@ -43,7 +43,8 @@ const serviceAccount = {
     type: "service_account",
     project_id:  "ev-route-planner-2",
     private_key_id:  pkid,
-    private_key:  pk.replace(/\\n/g, '\n'),
+    private_key:  pk.replace(/\\n  /g, '\n'),
+    // private_key:  pk,
     client_email:  "firebase-adminsdk-pmbya@ev-route-planner-2.iam.gserviceaccount.com" ,
     client_id:  cid,
     auth_uri:  aut ,
@@ -52,7 +53,7 @@ const serviceAccount = {
     client_x509_cert_url:  cert
 };
 
-console.log(serviceAccount)
+// console.log(serviceAccount)
 // console.log(serviceAccount);
 const cors = require("cors");
 
