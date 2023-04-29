@@ -70,9 +70,9 @@ app.use(express.json())
 
 const PORT = process.env.PORT || 5000;
 
-// app.use(cors({
-//     origin: "http://localhost:5500",
-// }))
+app.use(cors({
+    origin: "http://localhost:5500",
+}))
 
 
 app.use(express.urlencoded({extended: true}));
